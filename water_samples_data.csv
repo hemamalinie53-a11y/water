@@ -1,0 +1,35 @@
+timestamp,location_name,latitude,longitude,area_type,ph,hardness,tds,chlorine,sulfate,conductivity,organic_carbon,trihalomethanes,turbidity,prediction_result,confidence,water_source,_id,area_name,city_name,state_name,country_name,location_display,sample_id
+2026-03-12 15:28:57,Ramanathapuram,9.5205576,78.5184635,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-12 15:44:52,Madurai,9.9261153,78.1140983,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-12 20:49:49,"Ramanathapuram,Tamil Nadu",9.5205576,78.5184635,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-12 21:02:27,madurai,9.9261153,78.1140983,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-12 21:08:46,erode,11.4905282,77.3505274,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-12 21:26:33,kilakarai,10.40953,79.5784,Urban,7.0,200.0,500.0,2.0,250.0,400.0,10.0,50.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-13 11:40:45,ooty,11.4126769,76.7030504,Urban,7.2,180.0,600.0,3.0,200.0,350.0,1.0,60.0,3.0,Contaminated,100.0,,,,,,,,
+2026-03-13 20:04:48,"Kilakarai,Ramanathapuram",9.2346623,78.7860322,Unknown,6.8,250.0,300.0,2.0,150.0,250.0,3.0,60.0,2.0,Safe,100.0,Tank Water,69b4208819b713e27af203f8,,,,,,
+2026-03-13 20:36:24,london,51.5074456,-0.1277653,Unknown,6.0,150.0,800.0,5.0,250.0,300.0,1.0,80.0,6.0,Contaminated,100.0,River,69b427f0cdfbfdf5781a1978,,,,,,
+2026-03-13 20:52:36,"Anbu Nagar, Ramanathapuram, Tamil Nadu, India",9.9102022,78.1512214,Unknown,4.6,200.0,250.0,1.0,100.0,100.0,1.0,40.0,6.0,Contaminated,100.0,Borewell,69b42bbc8da4e64882937cef,Anbu Nagar,Ramanathapuram,Tamil Nadu,India,,
+2026-03-13 21:03:16,"Anbu Nagar, kilakarai, Ramanathapuram, India",9.2346623,78.7860322,Unknown,6.0,200.0,250.0,2.0,100.0,400.0,1.0,40.0,3.0,Safe,100.0,Borewell,69b42e3c9fc12076ea956990,Anbu Nagar,kilakarai,Ramanathapuram,India,,
+2026-03-13 21:29:00,theni,9.8692558,77.4222974,,7.9,200.0,200.0,3.0,250.0,450.0,0.99,40.0,3.9,Safe,100.0,Tap Water,69b43444aa33a67f149442d7,,,,,,
+2026-03-13 21:41:11,sivakasi,9.4627995,77.7891013,,6.9,200.0,800.0,5.0,250.0,800.0,1.0,80.0,5.0,Contaminated,100.0,Tank Water,69b4371f84a25dbe5bd877a1,,,,,,
+2026-03-17 19:07:04,Kochi,9.9679032,76.2444378,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69b95900028265411cda54eb,,,,,,
+2026-03-17 19:12:17,Salem,11.6469616,78.2106958,,9.0,450.0,380.0,2.0,120.0,850.0,1.2,85.0,2.5,Contaminated,100.0,Tap Water,69b95a39028265411cda54ed,,,,,,
+2026-03-18 12:32:21,"Karur, Tamil Nadu, India",10.8217671,78.3828654,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tap Water,69ba4dfd3873c8e1aabc5446,,,,,,
+2026-03-19 20:36:24,"Coimbatore, Tamil Nadu, India",11.0018115,76.9628425,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tap Water,69bc10f0e6bd4250f2094360,,,,,,
+2026-03-19 20:44:06,"Sivagangai,Tamil NAdu,India",9.9650599,78.7204283,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tank Water,69bc12bee6bd4250f2094361,,,,,,
+2026-03-19 21:04:10,Sivagangai,9.9650599,78.7204283,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69bc177207ff070727698e9b,,,,,,
+2026-03-21 16:12:03,Krishnagiri. Tamil Nadu,12.7649086,77.7918925,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69be75fb04668cda459cef91,,,,,,
+2026-03-21 16:12:10,Krishnagiri. Tamil Nadu,12.7649086,77.7918925,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69be760204668cda459cef92,,,,,,
+2026-03-21 16:29:27,"ramanathapuram,Tamil Nadu",9.5205576,78.5184635,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69be7a0f04668cda459cef94,,,,,,WQ-20260321-BE03
+2026-03-21 16:39:14,"Coimbatore, Tamil Nadu, India",11.0018115,76.9628425,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tap Water,69be7c5ab718c982da818552,,,,,,WQ-20260321-150B
+2026-03-21 16:49:26,"ooty, Tamil Nadu, India",11.4126769,76.7030504,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tank Water,69be7ebe04668cda459cef96,,,,,,WQ-20260321-88C9
+2026-03-22 10:53:05,"Anbu Nagar, Ramanathapuram, Tamil Nadu, India",9.5205576,78.5184635,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Other,69bf7cb96cc86a507426a03d,Anbu Nagar,"Ramanathapuram, Tamil Nadu, India",,,,WQ-20260322-C139
+2026-03-22 10:58:54,"kilakarai, Ramanathapuram, Tamil Nadu, India",9.365235,78.834319,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Tank Water,69bf7e166cc86a507426a03f,kilakarai,"Ramanathapuram, Tamil Nadu, India",,,,WQ-20260322-8A35
+2026-03-22 11:12:36,"pine forest, Ooty, Tamil Nadu, India",11.4126769,76.7030504,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,River,69bf814c666542e675748fae,pine forest,"Ooty, Tamil Nadu, India",,,,WQ-20260322-3C24
+2026-03-22 11:41:38,"seol, korea",37.5666791,126.9782914,,7.2,400.0,250.0,2.0,120.0,400.0,2.4,45.0,2.5,Contaminated,86.0,Lake,69bf881a7326993bba9a0d11,,"seol, korea",,,,WQ-20260322-B64F
+2026-03-22 11:42:18,"seoul, korea",37.5666791,126.9782914,,7.2,400.0,250.0,2.0,120.0,400.0,2.4,45.0,2.5,Contaminated,86.0,Lake,69bf88427326993bba9a0d12,,"seoul, korea",,,,WQ-20260322-FDE3
+2026-03-22 11:42:37,"seoul, South korea",37.5666791,126.9782914,,7.2,400.0,250.0,2.0,120.0,400.0,2.4,45.0,2.5,Contaminated,86.0,Lake,69bf88557326993bba9a0d13,,"seoul, South korea",,,,WQ-20260322-C31A
+2026-03-22 11:47:47,"seoul, South korea",37.5666791,126.9782914,,7.2,400.6,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Contaminated,100.0,Borewell,69bf898b909c90cd0a73c2ac,,"seoul, South korea",,,,WQ-20260322-9B8C
+2026-03-23 11:36:05,"Coimbatore, Tamil Nadu, India",11.0018115,76.9628425,,7.2,150.0,250.0,4.03,120.0,400.0,1.2,45.0,2.5,Contaminated,100.0,Tap Water,69c0d84d68728472c65d99d3,,"Coimbatore, Tamil Nadu, India",,,,WQ-20260323-46FD
+2026-03-23 11:59:31,"ooty, Tamil  Nadu, India",11.4126769,76.7030504,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,River,69c0ddcbfe0b1a949a90683c,,"ooty, Tamil  Nadu, India",,,,WQ-20260323-E24E
+2026-03-24 09:25:14,"Anbu Nagar, Coimbatore, Tamil Nadu, India",11.0018115,76.9628425,,7.2,150.0,250.0,2.0,120.0,400.0,1.2,45.0,2.5,Safe,100.0,Lake,69c20b226ab70532cb65a440,Anbu Nagar,"Coimbatore, Tamil Nadu, India",,,,WQ-20260324-464B
