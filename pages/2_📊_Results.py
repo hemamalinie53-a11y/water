@@ -352,34 +352,7 @@ else:
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-# ── 5. DOWNLOAD PDF REPORT ────────────────────────────────────────────────────
-st.markdown("<div class='result-container'>", unsafe_allow_html=True)
-st.markdown("### 📄 Download Report")
-st.caption("Generate a clean PDF report with all input values, prediction result, reasons, and date/time.")
-
-col_pdf1, col_pdf2, col_pdf3 = st.columns([1, 2, 1])
-with col_pdf2:
-    # Build report data (include location/source if already saved in session)
-    report_data = {
-        **recent,
-        'location_name': st.session_state.get('last_location', 'Not specified'),
-        'water_source':  st.session_state.get('last_water_source', 'Not specified'),
-    }
-    try:
-        pdf_bytes = generate_pdf(report_data)
-        st.download_button(
-            label="📥 Download Report as PDF",
-            data=pdf_bytes,
-            file_name=f"water_quality_report_{recent.get('timestamp','').replace(' ','_').replace(':','-')}.pdf",
-            mime="application/pdf",
-            use_container_width=True,
-        )
-    except Exception as e:
-        st.error(f"❌ Could not generate PDF: {e}")
-
-st.markdown("</div>", unsafe_allow_html=True)
-
-# ── 6. WATER SAMPLE DETAILS ───────────────────────────────────────────────────
+# ── 5. WATER SAMPLE DETAILS ───────────────────────────────────────────────────
 from geocoder import COMMON_LOCATIONS
 
 st.markdown("<div class='result-container'>", unsafe_allow_html=True)
@@ -549,6 +522,36 @@ if save_button:
         )
     else:
         st.error("❌ Failed to save. Please try again.")
+
+st.markdown("</div>", unsafe_allow_html=True)
+
+# ── 6. DOWNLOAD PDF REPORT ────────────────────────────────────────────────────
+st.markdown("<div class='result-container'>", unsafe_allow_html=True)
+st.markdown("### 📄 Download Report")
+
+location_saved = st.session_state.get('last_location')
+if not location_saved:
+    st.info("📌 Fill in the Water Sample Details above and save first — the PDF will include your location.")
+else:
+    st.caption("PDF includes prediction result, parameter analysis, location, and water source.")
+    col_pdf1, col_pdf2, col_pdf3 = st.columns([1, 2, 1])
+    with col_pdf2:
+        report_data = {
+            **recent,
+            'location_name': st.session_state.get('last_location', 'Not specified'),
+            'water_source':  st.session_state.get('last_water_source', 'Not specified'),
+        }
+        try:
+            pdf_bytes = generate_pdf(report_data)
+            st.download_button(
+                label="📥 Download Report as PDF",
+                data=pdf_bytes,
+                file_name=f"water_quality_report_{recent.get('timestamp','').replace(' ','_').replace(':','-')}.pdf",
+                mime="application/pdf",
+                use_container_width=True,
+            )
+        except Exception as e:
+            st.error(f"❌ Could not generate PDF: {e}")
 
 st.markdown("</div>", unsafe_allow_html=True)
 
